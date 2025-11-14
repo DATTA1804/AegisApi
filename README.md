@@ -156,3 +156,79 @@ AgiesAPI/
  └── README.md
 
  ---
+
+#🎯 Core API Endpoints
+
+Authentication
+
+Method	Endpoint	Description
+
+POST	/api/v1/auth/register	Register a new user
+
+POST	/api/v1/auth/login	Login and receive JWT
+
+---
+
+## 📘 API Documentation
+
+Swagger UI (if enabled)
+
+Postman Collection included in /docs/postman/AgiesAPI.postman_collection.json
+
+---
+
+## 💻 Frontend Features
+
+Register & login users
+
+Stores JWT (localStorage/sessionStorage)
+
+Accessible dashboard after login
+
+CRUD operations on the selected entity
+
+Toast notifications for errors & successes
+
+---
+
+## 📈 Scalability Notes
+
+AgiesAPI is designed with scalability in mind:
+
+Modular code structure for easy microservice migration
+
+Stateless JWT authentication supports horizontal scaling
+
+Caching layer (Redis) improves read performance
+
+Containerization (Docker) allows easy cloud deployment
+
+Can be extended into:
+
+Microservices
+
+Load-balanced clusters
+
+Message queues (Kafka/RabbitMQ)
+
+---
+
+## 📦 Deliverables
+
+✔ Backend hosted on GitHub
+
+✔ Working Authentication + CRUD APIs
+
+✔ Frontend UI connected to backend
+
+✔ API Documentation (Swagger/Postman)
+
+✔ Scalability Write-up
+
+---
+
+## 🏁 Conclusion
+
+AgiesAPI is a complete full-stack solution demonstrating essential backend engineering concepts: security, scalability, API design, and frontend integration.
+
+Perfect for showcasing backend expertise during interviews and assessments.
